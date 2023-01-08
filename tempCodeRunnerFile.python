@@ -1,0 +1,10 @@
+import time
+
+print('hacking NASA')
+time.sleep(2)
+print('hacking CIA')
+time.sleep(2)
+print('hacking IAA')
+time.sleep(2)
+print('hacking PENTAGON')
+time.sleep(2)
