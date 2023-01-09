@@ -7,13 +7,14 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 // DON'T FORGET TO SAVE THESE CREDENTIALS IN A .env FILE IF YOU WANT TO HOST THE APP
+// process.env.TOKEN_NAME
 const firebaseConfig = {
-    apiKey: "AIzaSyCi1zSRNTxngBzzsQUYiX0_6HcHnTky5vc",
-    authDomain: "todo-app-1d8ea.firebaseapp.com",
-    projectId: "todo-app-1d8ea",
-    storageBucket: "todo-app-1d8ea.appspot.com",
-    messagingSenderId: "368320849358",
-    appId: "1:368320849358:web:000ad1b974b95424eeb79f"
+    apiKey: process.env.API_KEY,
+    authDomain: process.env.AUTH_DOMAIN,
+    projectId: process.env.PROJECT_ID,
+    storageBucket: process.env.STORAGE_BUCKET,
+    messagingSenderId: process.env.MESSAGING_SENDER_ID,
+    appId: process.env.APP_ID,
 };
 
 // Initialize Firebase
